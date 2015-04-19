@@ -14,9 +14,11 @@ notifications = COLOREDOUTPUT()
 
 def Help():
     print """
+    [GWF Certified] - https://twitter.com/GuerrillaWF
+
     GrabME - Extract Sensitive information from a file.
 
-    Usage: ./grabme -f [FILE] [CONTENT-OPTION]
+    Usage: ./grabme -f [FILE] [EXTRACT-OPTION]
 
     ./grabme -f [FILE] --btc | Grab bitcoin addresses if in file.
 
@@ -26,7 +28,7 @@ def Help():
 
     ./grabme -f [FILE] --ssn | Grab social security numbers if any are in file.
 
-    ./grabme -f [FILE] --ccn | Grab credcard numbers if any are in file.
+    ./grabme -f [FILE] --ccn | Grab credit card numbers if any are in file.
 
     ./grabme -f [FILE] --ipv6 | Grab IPv6 addresses if any are in file.
 
@@ -34,18 +36,18 @@ def Help():
 
     ./grabme -f [FILE] --email | Grab Email addresses if any are in file.
 
-    ./grabme -f [FILE] --hash | Grab hashes if any are in file.
+    ./grabme -f [FILE] --hash | Grab hash values if any are in file.
 
     ./grabme -f [FILE] --phn | Grab phone numbers if any are in file.
 
     What can it extract ?:
 
-    Links
-    hash values
-    email addresses
-    ipv4, ipv6 addresses
-    instagram access tokens
-    bitcoin wallet addresses
-    MAC addresses with : or - (deliminators)
-    USA Based Telephone, Social Security and Major Credit Card numbers.
+    1. Links
+    2. hash values
+    3. email addresses
+    4. ipv4, ipv6 addresses
+    5. instagram access tokens
+    6. bitcoin wallet addresses
+    7. MAC addresses with : or - (deliminators)
+    8. USA Based Telephone, Social Security and Major Credit Card numbers.
     """
