@@ -1,4 +1,4 @@
-# GrabME
+# Loot
 Sensitive information extraction tool.
 
 Platform:
@@ -7,38 +7,37 @@ Platform:
 
 Report a bug:
 -------------
-https://github.com/GuerrillaWarfare/GrabME/issues
+https://github.com/GuerrillaWarfare/Loot/issues
 
-Usage examples:
+Usage:
 -------------------------
-https://github.com/GuerrillaWarfare/GrabME/wiki/GrabME-Usage-Examples
 
-    Usage: ./grabme -f [FILE] [EXTRACT-OPTION]
+    Usage: ./loot -f [FILE] [EXTRACT-OPTION]
 
     Extract Options: --btc, --iat, --ipv4, --ipv6, --link
                      --mac, --ssn, --ccn, --phn, --hash
 
-    ./grabme -a [FILE] | Grab all extract types if any in file.
+    ./loot -a [FILE] | Grab all extract types if any in file.
 
-    ./grabme -f [FILE] --btc | Grab bitcoin addresses if in file.
+    ./loot -f [FILE] --btc | Grab bitcoin addresses if in file.
 
-    ./grabme -f [FILE] --hash | Grab hash values if any are in file.
+    ./loot -f [FILE] --hash | Grab hash values if any are in file.
 
-    ./grabme -f [FILE] --mac | Grab MAC addresses if any are in file.
+    ./loot -f [FILE] --mac | Grab MAC addresses if any are in file.
 
-    ./grabme -f [FILE] --phn | Grab Phone numbers if any are in file.
+    ./loot -f [FILE] --phn | Grab Phone numbers if any are in file.
 
-    ./grabme -f [FILE] --email | Grab Email addresses if any are in file.
+    ./loot -f [FILE] --email | Grab Email addresses if any are in file.
 
-    ./grabme -f [FILE] --iat | Grab instagram access tokens if any are in file.
+    ./loot -f [FILE] --iat | Grab instagram access tokens if any are in file.
 
-    ./grabme -f [FILE] --ssn | Grab social security numbers if any are in file.
+    ./loot -f [FILE] --ssn | Grab social security numbers if any are in file.
 
-    ./grabme -f [FILE] --ccn | Grab credit card numbers if any are in file.
+    ./loot -f [FILE] --ccn | Grab credit card numbers if any are in file.
 
-    ./grabme -f [FILE] --ipv6 | Grab IPv6 addresses if any are in file.
+    ./loot -f [FILE] --ipv6 | Grab IPv6 addresses if any are in file.
 
-    ./grabme -f [FILE] --ipv4 | Grab IPv4 addresses if any are in file.
+    ./loot -f [FILE] --ipv4 | Grab IPv4 addresses if any are in file.
 
     What can it extract ?:
 
