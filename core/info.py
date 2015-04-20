@@ -16,29 +16,29 @@ def Help():
     print """
     [GWF Certified] - https://twitter.com/GuerrillaWF
 
-    GrabME - Extract Sensitive information from a file.
+    Loot - Extract sensitive information from a file.
 
-    Usage: ./grabme -f [FILE] [EXTRACT-OPTION]
+    Usage: ./loot.py -f [FILE] [EXTRACT-OPTION]
 
-    ./grabme -f [FILE] --btc | Grab bitcoin addresses if in file.
+    ./loot.py -f [FILE] --btc | Grab bitcoin addresses if in file.
 
-    ./grabme -f [FILE] --mac | Grab MAC addresses if any are in file.
+    ./loot.py -f [FILE] --mac | Grab MAC addresses if any are in file.
 
-    ./grabme -f [FILE] --iat | Grab instagram access tokens if any are in file.
+    ./loot.py -f [FILE] --iat | Grab instagram access tokens if any are in file.
 
-    ./grabme -f [FILE] --ssn | Grab social security numbers if any are in file.
+    ./loot.py -f [FILE] --ssn | Grab social security numbers if any are in file.
 
-    ./grabme -f [FILE] --ccn | Grab credit card numbers if any are in file.
+    ./loot.py -f [FILE] --ccn | Grab credit card numbers if any are in file.
 
-    ./grabme -f [FILE] --ipv6 | Grab IPv6 addresses if any are in file.
+    ./loot.py -f [FILE] --ipv6 | Grab IPv6 addresses if any are in file.
 
-    ./grabme -f [FILE] --ipv4 | Grab IPv4 addresses if any are in file.
+    ./loot.py -f [FILE] --ipv4 | Grab IPv4 addresses if any are in file.
 
-    ./grabme -f [FILE] --email | Grab Email addresses if any are in file.
+    ./loot.py -f [FILE] --email | Grab Email addresses if any are in file.
 
-    ./grabme -f [FILE] --hash | Grab hash values if any are in file.
+    ./loot.py -f [FILE] --hash | Grab hash values if any are in file.
 
-    ./grabme -f [FILE] --phn | Grab phone numbers if any are in file.
+    ./loot.py -f [FILE] --phn | Grab phone numbers if any are in file.
 
     What can it extract ?:
 
