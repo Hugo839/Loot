@@ -20,7 +20,7 @@ symlinkdest = '/usr/local/bin/'
 
 def rootcheck():
     if os.getuid() != 0:
-        print "\nRun as root! to install {}\n".format(projectname)
+        print "\nRun as root! to install {} to your /usr/local/bin/ directory.\n".format(projectname)
         exit(0)
 
 def main(sln):
