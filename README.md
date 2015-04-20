@@ -5,39 +5,32 @@ Platform:
 ---------
 - Linux cli
 
-Report a bug:
--------------
-https://github.com/GuerrillaWarfare/Loot/issues
-
 Usage:
 -------------------------
 
-    Usage: ./loot -f [FILE] [EXTRACT-OPTION]
+    Usage: ./loot.py -f [FILE] [EXTRACT-OPTION]
 
-    Extract Options: --btc, --iat, --ipv4, --ipv6, --link
-                     --mac, --ssn, --ccn, --phn, --hash
+    ./loot.py -a [FILE] | Grab all extract types if any in file.
 
-    ./loot -a [FILE] | Grab all extract types if any in file.
+    ./loot.py -f [FILE] --btc | Grab bitcoin addresses if in file.
 
-    ./loot -f [FILE] --btc | Grab bitcoin addresses if in file.
+    ./loot.py -f [FILE] --hash | Grab hash values if any are in file.
 
-    ./loot -f [FILE] --hash | Grab hash values if any are in file.
+    ./loot.py -f [FILE] --mac | Grab MAC addresses if any are in file.
 
-    ./loot -f [FILE] --mac | Grab MAC addresses if any are in file.
+    ./loot.py -f [FILE] --phn | Grab Phone numbers if any are in file.
 
-    ./loot -f [FILE] --phn | Grab Phone numbers if any are in file.
+    ./loot.py -f [FILE] --email | Grab Email addresses if any are in file.
 
-    ./loot -f [FILE] --email | Grab Email addresses if any are in file.
+    ./loot.py -f [FILE] --iat | Grab instagram access tokens if any are in file.
 
-    ./loot -f [FILE] --iat | Grab instagram access tokens if any are in file.
+    ./loot.py -f [FILE] --ssn | Grab social security numbers if any are in file.
 
-    ./loot -f [FILE] --ssn | Grab social security numbers if any are in file.
+    ./loot.py -f [FILE] --ccn | Grab credit card numbers if any are in file.
 
-    ./loot -f [FILE] --ccn | Grab credit card numbers if any are in file.
+    ./loot.py -f [FILE] --ipv6 | Grab IPv6 addresses if any are in file.
 
-    ./loot -f [FILE] --ipv6 | Grab IPv6 addresses if any are in file.
-
-    ./loot -f [FILE] --ipv4 | Grab IPv4 addresses if any are in file.
+    ./loot.py -f [FILE] --ipv4 | Grab IPv4 addresses if any are in file.
 
     What can it extract ?:
 
@@ -57,6 +50,10 @@ Changelog:
 Protip:
 -------
 - The '-a' option MAY or MAY NOT always be the best usage case.
+
+Donations:
+----------
+- 17vorVqtJqbDaN6ZC6UGE7UwGC4QVmDNMh
 
 Guerrilla Warfare Free License ("GWFL"):
 ----------------------------------------
