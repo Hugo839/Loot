@@ -3,6 +3,7 @@
 # -*- coding: binary -*-
 
 import re
+from storage import database
 from extraction import extract
 from functions import utilities
 from core.info import notifications
@@ -31,6 +32,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -62,6 +64,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -93,6 +96,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -126,6 +130,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -157,6 +162,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 if output.isdigit() is False and ":" not in output and "@" not in output:
                     utilities.pi(notifications.INFO + output)
@@ -194,6 +200,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -225,6 +232,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -258,6 +266,7 @@ class PROCESSEXTRACT():
             count = 0
 
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -290,6 +299,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -321,6 +331,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
@@ -372,6 +383,7 @@ class PROCESSEXTRACT():
             utilities.pi("--------------------------")
             count = 0
             for output in keys:
+                database.ExportFile(output)
                 count += 1
                 utilities.pi(notifications.INFO + output)
 
