@@ -29,7 +29,7 @@ def main(sln):
     sleep(1)
     # Copy the current directory to the dest path
     copytree(projectpath, destinedpath)
-    os.system('sudo ln -s {} {}'.format(destinedpath + '/grabme.py', symlinkdest + '/{}'.format(sln)))
+    os.system('sudo ln -s {} {}'.format(destinedpath + '/loot.py', symlinkdest + '/{}'.format(sln)))
     os.system('sudo chmod a+rw -R {}'.format(destinedpath))
     os.system('sudo chown -R {} {}'.format(loginname, destinedpath))
 
